@@ -1,6 +1,6 @@
 <template>
     <div>
-        <x-input v-model="val"></x-input>
+        <x-input v-model="val" placeholder="请输入" clearable></x-input>
     </div>
 </template>
 
