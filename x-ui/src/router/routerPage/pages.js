@@ -15,6 +15,18 @@ export default [
                 name:'input输入框',
                 title:'Input',
                 component:() => import('../../../packages/input/doc/doc.md')
+            },
+            {
+                path:'textarea',
+                name:'textarea文本域',
+                title:'Textarea',
+                component:() => import('../../../packages/textarea/doc/doc.md')
+            },
+            {
+                path:'space',
+                name:'space间距',
+                title:'Space',
+                component:() => import('../../../packages/space/doc/doc.md')
             }
         ]
     }
