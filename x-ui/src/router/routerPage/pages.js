@@ -27,6 +27,18 @@ export default [
                 name:'space间距',
                 title:'Space',
                 component:() => import('../../../packages/space/doc/doc.md')
+            },
+            {
+                path:'select',
+                name:'select下拉框',
+                title:'Select',
+                component:() => import('../../../packages/select/doc/doc.md')
+            },
+            {
+                path:'radio',
+                name:'radio单选框',
+                title:'Radio',
+                component:() => import('../../../packages/radio/doc/doc.md')
             }
         ]
     }
