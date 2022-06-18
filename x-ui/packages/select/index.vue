@@ -129,7 +129,7 @@ const change = (selected,index) =>{
         height: auto;
         overflow: hidden;
         position: absolute;
-        top: 42px;
+        top: 47px;
         border: 1px solid $border-color;
         box-shadow: 0 2px 12px 0 rgba(0,0,0,0.1);
         transition: all 0.5s ease;

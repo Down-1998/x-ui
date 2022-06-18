@@ -1,7 +1,6 @@
 <template>
     <div>
         <x-select :options="state.options" ></x-select>
-        <!-- <x-select :options="state.options" ></x-select> -->
     </div>
 </template>
 
@@ -37,5 +36,9 @@ const state = reactive({
 </script>
 
 <style lang="scss" scoped>
-
+.test{
+    width: 10px;
+    height: 10px;
+    color: red;
+}
 </style>

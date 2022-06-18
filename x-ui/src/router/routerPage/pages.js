@@ -1,9 +1,22 @@
 export default [
+    
     {
         path:'/',
         name:'home',
         component:() =>import('@/views/home.vue'),
         children:[
+            {
+                path:'/',
+                name:'首页',
+                title:'首页',
+                component:() => import('../../../packages/index.vue')
+            },
+            {
+                path:'icon',
+                name:'icon图标',
+                title:'Icon',
+                component:() => import('../../../packages/icon/doc/doc.md')
+            },
             {
                 path:'button',
                 name:'button按钮',
@@ -39,6 +52,12 @@ export default [
                 name:'radio单选框',
                 title:'Radio',
                 component:() => import('../../../packages/radio/doc/doc.md')
+            },
+            {
+                path:'tree',
+                name:'tree单选框',
+                title:'Tree',
+                component:() => import('../../../packages/tree/doc/doc.md')
             }
         ]
     }

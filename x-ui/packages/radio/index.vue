@@ -13,9 +13,9 @@
     </div>
 </template>
 <script>
-    export default{
-        name:'xRadio'
-    }
+export default{
+    name:'xRadio'
+}
 </script>
 <script setup>
 import { ref, computed } from 'vue';
