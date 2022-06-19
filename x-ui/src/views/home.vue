@@ -3,7 +3,7 @@
         <transition name="fade">
             <div class="left-menu" v-show="showMenu">
                 <div class="title-logo">
-                    <img src="../../public/assets/imgs/logo.png" alt="">
+                    <img src="../../public/assets/imgs/logo.jpg" alt="">
                     <span>X-UI</span>
                 </div>
                 <li v-for="(item, index) in menuList[0].children" :key="index"

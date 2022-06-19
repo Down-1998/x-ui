@@ -12,7 +12,7 @@ export default {
 </script>
 <script setup>
 import { computed } from 'vue';
-import '../assets/js/iconfont.js';
+import '../iconfonts/js/iconfont.js';
 
 const props = defineProps({
     code:String,
