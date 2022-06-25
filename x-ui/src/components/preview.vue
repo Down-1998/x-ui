@@ -1,8 +1,7 @@
 <template>
   <div class="pre-code-box">
     <span class="m-copy" v-if="showCode" @click="copyCode"
-      ><i class="m-icon-copy"></i
-    ></span>
+      >  <x-icon code="icon-copy" size="1.5"></x-icon> </span>
     <transition name="slide-fade">
       <pre
         class="language-html"
@@ -20,6 +19,7 @@
 
 <script setup>
 import { onMounted, ref, nextTick } from "vue";
+import Message from "../../packages/message/index.js";
 const props = defineProps({
   compname: {
     type: String,

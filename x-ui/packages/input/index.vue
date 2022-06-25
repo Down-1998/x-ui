@@ -12,7 +12,7 @@
 </template>
 
 <script>
-    export default{
+    export default {
         name:'xInput'
     }
 </script>

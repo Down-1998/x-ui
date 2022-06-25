@@ -12,6 +12,12 @@ export default [
                 component:() => import('../../../packages/index.vue')
             },
             {
+                path:'color',
+                name:'color颜色',
+                title:'Color',
+                component:() => import('../../../packages/color/doc.md')
+            },
+            {
                 path:'icon',
                 name:'icon图标',
                 title:'Icon',
@@ -55,9 +61,21 @@ export default [
             },
             {
                 path:'tree',
-                name:'tree单选框',
+                name:'tree树型控件',
                 title:'Tree',
                 component:() => import('../../../packages/tree/doc/doc.md')
+            },
+            {
+                path:'tabs',
+                name:'tabs选项卡',
+                title:'Tabs',
+                component:() => import('../../../packages/tabs/doc/doc.md')
+            },
+            {
+                path:'message',
+                name:'message消息提示',
+                title:'Message',
+                component:() => import('../../../packages/message/doc/doc.md')
             }
         ]
     }
