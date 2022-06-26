@@ -47,7 +47,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter();
 const handleJumpUse = () =>{
     router.push({
-        path:'color',
+        path:'introduce',
         query:{
             showMenu:true
         }

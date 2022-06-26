@@ -12,6 +12,12 @@ export default [
                 component:() => import('../../../packages/index.vue')
             },
             {
+                path:'introduce',
+                name:'安装',
+                title:'Introduce',
+                component:() => import('../../../packages/introduce/doc.md')
+            },
+            {
                 path:'color',
                 name:'color颜色',
                 title:'Color',

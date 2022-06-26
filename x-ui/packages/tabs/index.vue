@@ -145,7 +145,7 @@ function updatePaneInstances() {
    * 从children中获取class==="tabs-content"下的子元素，也就是当前默认插槽下的子元素
    * 这里需要注意，注释也算一个子元素,所以不要在组件根元素外写注释
    */
-  
+  console.log(instance,'===instance.subTree====');
   const content = instance.subTree.children.find(
     ({ props }) => props?.class === "tabs-content"
   );
