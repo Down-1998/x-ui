@@ -33,8 +33,9 @@ const state = reactive({
     info: {
       icon: props.icon || 'icon-caozuo1',
       color: '#505050',
-      backgroundColor: 'rgb(229 227 224)',
-      borderColor: 'rgb(229 227 224)'
+      backgroundColor: 'rgb(255 255 255)',
+      borderColor: 'rgb(229 227 224)',
+      boxShadow:' 0 2px 12px 0 rgba(7, 7, 7, 0.1)'
     },
     warn: {
       icon: props.icon || 'icon-jinggao',

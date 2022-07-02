@@ -82,6 +82,18 @@ export default [
                 name:'message消息提示',
                 title:'Message',
                 component:() => import('../../../packages/message/doc/doc.md')
+            },
+            {
+                path:'confirm',
+                name:'confirm消息确认',
+                title:'Confirm',
+                component:() => import('../../../packages/confirm/doc/doc.md')
+            },
+            {
+                path:'loading',
+                name:'loading加载',
+                title:'Loading',
+                component:() => import('../../../packages/loading/doc/doc.md')
             }
         ]
     }

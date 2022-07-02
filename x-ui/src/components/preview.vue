@@ -11,7 +11,7 @@
     </transition>
     <div class="showCode" @click="showOrhideCode">
       <span>{{ showCode ? "隐藏代码" : "显示代码" }}</span>
-      <i class="m-icon-code"></i>
+      <x-icon code="icon-code" size="1"  class="x-icon"/>
     </div>
     <textarea id="inputCopy" />
   </div>
@@ -80,6 +80,10 @@ onMounted(() => {
 </script>
 
 <style scoped lang="scss">
+.x-icon{
+  width: 20px;
+  margin-top: 25px;
+}
 #inputCopy {
   opacity: 0;
   border: 0;
@@ -122,7 +126,7 @@ onMounted(() => {
   }
   .showCode {
     width: 100%;
-    line-height: 40px;
+    // line-height: 10px;
     font-size: 14px;
     text-align: center;
     display: flex;
